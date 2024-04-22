@@ -102,7 +102,7 @@ form {
         width:25vw;
         height: 4rem;
         background-color:gold;
-        color:white;
+        color:black;
         padding: 1rem;
         border: 0.01rem solid grey;
         font-weight: bold;

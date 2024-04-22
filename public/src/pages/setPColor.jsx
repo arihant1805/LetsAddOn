@@ -46,13 +46,13 @@ function SetPColor() {
     <div id="choose">
         <div className="Color" id="black" onClick={e=>setColor(e)}>
         </div>
-        <div className="Color" id="blue" onClick={e=>setColor(e)}>
+        <div className="Color" id="deepskyblue" onClick={e=>setColor(e)}>
         </div>
-        <div className="Color" id="green" onClick={e=>setColor(e)}>
+        <div className="Color" id="crimson" onClick={e=>setColor(e)}>
         </div>
-        <div className="Color" id="red" onClick={e=>setColor(e)}>
+        <div className="Color" id="lightpink" onClick={e=>setColor(e)}>
         </div>
-        <div className="Color" id="yellow" onClick={e=>setColor(e)}>
+        <div className="Color" id="gold" onClick={e=>setColor(e)}>
         </div>
         <div className="Color" id="white" onClick={e=>setColor(e)}>
         </div>
@@ -90,23 +90,23 @@ const SelectContainer = styled.div`
             cursor:pointer
         }
     }
-    #blue{
-        background-color:blue;
+    #deepskyblue{
+        background-color:deepskyblue;
     }
     #white{
         background-color:white;
     }
-    #red{
-        background-color:red;
+    #crimson{
+        background-color:crimson;
     }
     #black{
         background-color:black;
     }
-    #yellow{
-        background-color:yellow;
+    #lightpink{
+        background-color:lightpink;
     }
-    #green{
-        background-color:green;
+    #gold{
+        background-color:gold;
     }
 `;
 

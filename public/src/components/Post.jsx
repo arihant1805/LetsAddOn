@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const Post =({p})=>{
     const comments=p.Comment;
     const navigate=useNavigate();
-    const [C,setC]=useState("white");
+    const [C,setC]=useState("black");
     const [liked,setLiked]=useState(0);
     const [likes,setLikes]=useState(p.likeCount);
     const addComment=()=>{
@@ -18,7 +18,7 @@ const Post =({p})=>{
         if(liked){
             setLiked(0);
             setLikes(likes-1)
-            setC("white");
+            setC("black");
         }else{
         setLiked(1);
         setLikes(likes+1);
@@ -102,7 +102,7 @@ width: 20;
     button{
         height: 3rem;
         background-color:gold;
-        color:white;
+        color:black;
         padding: 1rem 2rem;
         border: none;
         font-weight: bold;

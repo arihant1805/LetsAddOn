@@ -93,7 +93,7 @@ align-items: center;
 button{
   height: 3rem;
   background-color:gold;
-  color:white;
+  color:black;
   padding: 1rem 2rem;
   border: none;
   font-weight: bold;
@@ -163,7 +163,7 @@ button{
 
     height: 3rem;
         background-color:gold;
-        color:white;
+        color:black;
         padding: 1rem 2rem;
         border: none;
         font-weight: bold;
