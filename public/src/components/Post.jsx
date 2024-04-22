@@ -50,7 +50,7 @@ const Post =({p})=>{
             <button onClick={addComment}>add on</button>
             </div>
             <div id="comments">
-            {comments.length>0 &&<b>Comments:</b>}
+            {comments.length>0 &&<b>Add on's:</b>}
             {comments && comments.map((c,index) => 
              (index<3 && <div key={index}>{c}</div>)
 
@@ -63,6 +63,7 @@ const Post =({p})=>{
 const PostContainer = styled.div`
 margin-left:4vw;
 #comments{
+    color:white;
     text-align:right;
     margin-top:1rem;
     display:flex;
@@ -92,6 +93,7 @@ width: 20;
     background-color:#e6dc9518;
     padding: 3vw;
     font-size: 1.25rem;
+    color:white;
     }
 .foot{
     display:flex;

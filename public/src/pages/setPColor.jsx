@@ -70,7 +70,7 @@ const SelectContainer = styled.div`
     gap: 1rem;
     align-items: center;
     text-align:center;
-    background-color: rgba(255, 170, 0, 0.6);
+    background-color:black;
     h1{
         color:white;
     }
@@ -81,6 +81,7 @@ const SelectContainer = styled.div`
         gap: 3rem;
     }
     .Color{
+        border:.25rem solid gold;
         width:7.5vw;
         height:7.5vw;
         border-radius:50%;

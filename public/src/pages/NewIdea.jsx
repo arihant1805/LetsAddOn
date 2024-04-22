@@ -39,8 +39,8 @@ function NewIdea() {
         }}  
     };
     const handleValidation=()=>{
-        if(idea.length>50){
-            toast.error("Idea length should be less than 50 character.",toastOptions);
+        if(idea.length>150){
+            toast.error("Idea length should be less than 150 character.",toastOptions);
             return false;
         }
         return true;
@@ -71,7 +71,7 @@ flex-direction: column;
 justify-content: center;
 gap: 1rem;
 align-items: center;
-background-color: rgba(255, 170, 0, 0.6);
+background-color: black;
 form {
     align-items:center;
     display:flex;
@@ -101,7 +101,7 @@ form {
     button{
         width:25vw;
         height: 4rem;
-        background-color:orange;
+        background-color:gold;
         color:white;
         padding: 1rem;
         border: 0.01rem solid grey;
@@ -112,7 +112,7 @@ form {
         font-size:2rem;
         transition:0.5s ease-in-out;
         &: hover{
-            background-color:gold;
+            background-color:orange;
         }
         @media only screen and (max-width:800px) {
             font-size:1rem;

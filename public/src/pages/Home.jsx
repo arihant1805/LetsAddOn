@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-import logo from '../assets/logo (2).png';
+import logo from '../assets/letsaddon.png';
 import axios from "axios";
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
@@ -67,6 +67,8 @@ function Home(){
   }
 }
 const HomeContainer=styled.div`
+background-color:black;
+color:white;
 #but{
   display:flex;
   flex-direction: row;
@@ -80,7 +82,7 @@ const HomeContainer=styled.div`
   text-align: center;
   font-size: 1.75rem;
 }
-border:1vw solid rgba(255, 170, 0, 0.6);
+border:1vw solid gold;
 width:100vw;
 height:100vh;
 display:flex;
@@ -122,6 +124,12 @@ button{
   font-weight: bold;
   padding-top: 15%;
   font-size: 3rem;
+}
+@media only screen and (max-width: 800px) {
+  .discription{
+    width:90vw;
+    font-size:1.25rem;
+  }
 }
 `;
 const MainPage = styled.div`
@@ -177,9 +185,10 @@ button{
     align-items: center;
     position:fixed;
     font-weight: bold;
-    background-color:white;
+    background-color:black;
   }
   .Headline{
+    color:white;
     padding-left: 0.6%;
     padding-top: 3%;
     font-size: 3rem;
@@ -247,5 +256,7 @@ button{
       }
     }
     }
+overflow-x:hidden;
+background-color:black;
 `;
 export default Home;

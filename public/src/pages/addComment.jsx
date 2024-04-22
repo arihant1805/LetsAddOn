@@ -73,7 +73,7 @@ flex-direction: column;
 justify-content: center;
 gap: 1rem;
 align-items: center;
-background-color: rgba(255, 170, 0, 0.6);
+background-color: black;
 form {
     align-items:center;
     display:flex;
@@ -103,7 +103,7 @@ form {
     button{
         width:25vw;
         height: 4rem;
-        background-color:orange;
+        background-color:gold;
         color:white;
         padding: 1rem 2re,;
         border: 0.01rem solid grey;
@@ -114,7 +114,7 @@ form {
         font-size:2rem;
         transition:0.5s ease-in-out;
         &: hover{
-            background-color:gold;
+            background-color:orange;
         }
         @media only screen and (max-width:800px) {
             font-size:2rem;
