@@ -174,7 +174,7 @@ button{
         transition:0.5s ease-in-out;
             &: hover{
                 
-                background-color:orange;
+                background-color:aqua;
             }
 }
 .Header{
@@ -215,7 +215,6 @@ button{
     align-items: center;
     position:fixed;
     font-weight: bold;
-    background-color:white;
     img{
       width:15vw;
       height:15vw;

@@ -78,12 +78,12 @@ const SelectContainer = styled.div`
         margin:2rem;
         display:flex;
         flex-direction: row;
-        gap: 3rem;
+        gap: 5vw;
     }
     .Color{
-        border:.25rem solid gold;
-        width:7.5vw;
-        height:7.5vw;
+        border:.25vw solid gold;
+        width:9vw;
+        height:9vw;
         border-radius:50%;
         &:hover{
             border:.25rem solid orange;

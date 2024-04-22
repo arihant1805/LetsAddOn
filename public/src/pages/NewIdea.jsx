@@ -112,7 +112,7 @@ form {
         font-size:2rem;
         transition:0.5s ease-in-out;
         &: hover{
-            background-color:orange;
+            background-color:aqua;
         }
         @media only screen and (max-width:800px) {
             font-size:1rem;
