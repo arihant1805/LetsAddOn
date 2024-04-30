@@ -28,7 +28,7 @@ function Home(){
     <MainPage>
         <header>
           <div className="Header">
-            <img src={logo} width="10%" height="10%" />
+            <img src={logo} width="10%" height="10%" alt="Let's add on logo"/>
             <div className="Headline">
             Let's add on
             </div>
@@ -50,7 +50,7 @@ function Home(){
     return(<>
     <HomeContainer>
     <div className="Header" onClick={()=>{navigate("/")}}>
-      <img src={logo}/>
+      <img src={logo} alt="Let's Add On log"/>
       <div className="Headline">
             Let's add on
       </div>
@@ -82,7 +82,6 @@ color:white;
   text-align: center;
   font-size: 1.75rem;
 }
-border:1vw solid gold;
 width:100vw;
 height:100vh;
 display:flex;

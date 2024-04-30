@@ -38,7 +38,6 @@ module.exports.login= async (req,res,next)=>{
 module.exports.setPColor = async (req,res,next)=>{
     try {
         const {username,color}=req.body;
-        console.log(color)
         const user = await User.findOneAndUpdate({username},{
         PColor:color,
         isPColorSet:true
